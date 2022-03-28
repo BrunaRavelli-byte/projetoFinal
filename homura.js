@@ -10,7 +10,7 @@ function pergunta1() {
         alert ('Resposta incorreta');
         contador--;
         responder = prompt('Digite sua resposta');
-        window.location.assign("file:///C:/Users/Ebanx/OneDrive/%C3%81rea%20de%20Trabalho/Projeto%20final/gameover.index.html");
+        window.location.assign("http://127.0.0.1:5500/gameover.index.html");
     }
 }
 }
@@ -27,7 +27,7 @@ function pergunta2() {
         alert ('Resposta incorreta');
         contador--;
         responder = prompt('Digite sua resposta');
-        window.location.assign("file:///C:/Users/Ebanx/OneDrive/%C3%81rea%20de%20Trabalho/Projeto%20final/gameover.index.html");
+        window.location.assign("http://127.0.0.1:5500/gameover.index.html");
     }
 }
 }
@@ -38,13 +38,13 @@ function pergunta3() {
      var responder3 = prompt('Digite sua resposta');
      while (contador3 >= 1) {  
     if (responder3 == verificação3) {
-        window.location.assign ("file:///C:/Users/Ebanx/OneDrive/%C3%81rea%20de%20Trabalho/Projeto%20final/vitoria.index.html");
+        window.location.assign ("http://127.0.0.1:5500/vitoria.index.html");
         break;
     } else { 
         alert ('Resposta incorreta');
         contador--;
         responder = prompt('Digite sua resposta');
-        window.location.assign("file:///C:/Users/Ebanx/OneDrive/%C3%81rea%20de%20Trabalho/Projeto%20final/gameover.index.html");
+        window.location.assign("http://127.0.0.1:5500/gameover.index.html");
     }
 }
 }
